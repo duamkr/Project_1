@@ -10,7 +10,7 @@ import seaborn as sns
 #get current path
 currentPath = os.getcwd()
 #change path
-os.chdir('E:/workspace/Project_1/data')
+os.chdir('D:/OH/1차_Project/3.조별프로젝트_고령운전자/coding')
 
 
 data1 = pd.read_csv('시군구별 교통사고2_명칭통합.csv', encoding = 'EUC-KR')
